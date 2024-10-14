@@ -49,7 +49,7 @@ function App() {
             alt={wdata.current.condition?.text}
           />
           <h1 className="font-bold text-4xl md:text-3xl text-white pb-1">
-            {wdata.current?.temp_c || "N/A"} &deg;C
+            {wdata.current?.temp_c } &deg;C
           </h1>
           <h2 className="font-bold text-2xl text-white pb-1">{city}</h2>
           <h3 className="font-bold text-lg md:text-base text-white pb-1">
